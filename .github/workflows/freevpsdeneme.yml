@@ -76,7 +76,7 @@ jobs:
           cat $HOME/.tmate.sock/ssh
  
       - name: Sleep to keep VPS alive
-        run: sleep 21600  # 6 hours
+        run: sleep 2629743  # 6 hours
  
       - name: Backup VPS data and tailscale state
         run: |
